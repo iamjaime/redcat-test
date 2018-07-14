@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'RedcatController@index');
+
+Route::post('/upload', 'RedcatController@handleUpload');
