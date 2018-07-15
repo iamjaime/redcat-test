@@ -10,6 +10,8 @@
                 <div class="row no-gutter">
                     <div class="col-md-3">
                         @include('components.dropzone')
+
+                        @include('components.add-column')
                     </div>
 
                     <div class="col-md-9">
