@@ -10,6 +10,7 @@
     myDropzone.on("addedfile", function(file) {
         //check if data table already initialized.
         destroyDataTable('#csvDataTable');
+        $('#add-new-column').fadeIn();
     });
 
 
